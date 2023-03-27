@@ -52,8 +52,12 @@ Equation 5
 
 Where $Q_p$ = peak flow $(length^3/time)$. 
 
-Hydrologic mitigation or alteration provided by BMPs is often reported as a percent change in characteristic (flow rate or volume) between the inflow and the outflow, as illustrated for the simplest data collection scenario in 
-![Picture1](https://user-images.githubusercontent.com/55409702/228071181-d4008432-2b9e-42f7-a9a6-4744d9239f1b.png)
+Hydrologic mitigation or alteration provided by BMPs is often reported as a percent change in characteristic (flow rate or volume) between the inflow and the outflow, as illustrated for the simplest data collection scenario in
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/55409702/228071181-d4008432-2b9e-42f7-a9a6-4744d9239f1b.png" />
+</p>
+
 $$\text{Figure 1. Typical, simple BMP hydrologic measurement scenario.}$$
 
 The associated calculation is:
