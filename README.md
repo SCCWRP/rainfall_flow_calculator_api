@@ -64,14 +64,14 @@ Equation 6
 Where the “value” is either Qp or V determined by the calculator. Inflow and outflow hydrographs must be provided by the user in order to calculate % change.
 
 The web app can calculate a % change in volume during events where runoff bypass or overflow occur, if the relevant hydrograph is provided. The terms “bypass” and “overflow” are used interchangeably here, indicating flow that is not managed by the BMP. Physically this may be flow that exceeds the inlet capacity and is routed around the BMP, or it may enter the BMP but flow directly to the outlet structure because the BMP capture capacity is exceeded (Figure 1). Either physical case is treated the same way for calculating the volume change statistic:
-$$ % "change"=  (V_in+V_byp-V_out)/(V_in 〖+V〗_byp )×100% $$
+$$ \text{percent_change} = (V_in+V_byp-V_out)/(V_in 〖+V〗_byp ) \times 100 \% $$
 <div align="right"> 
 Equation 7
 </div>
 
 The web app can also calculate a % change in volume if there is more than one inflow to the BMP,  including bypass (Equation 8), as illustrated in Figure 2. 
 
-$$ %change = \frac{(V_{in1}+V_{in2}+V_{byp1}+V_{byp2}-V_{out})}{(V_{in1}+V_{in2}+V_{byp1}+V_{byp2})}\times 100\%$$ 
+$$ \text{percent change} = \frac{(V_{in1}+V_{in2}+V_{byp1}+V_{byp2} - V_{out})}{(V_{in1}+V_{in2}+V_{byp1}+V_{byp2})} \times 100 $$ 
 <div align="right"> 
 Equation 8
 </div>
