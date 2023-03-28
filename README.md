@@ -76,6 +76,7 @@ The web app can calculate a % change in volume during events where runoff bypass
 </p>
 $$\text{Figure 2. Typical BMP hydrologic measurement scenario with bypass.}$$
 
+The associated calculation is:
 $$ \text{percent change} = \frac{(V_{in}+V_{byp}-V_{out})}{(V_{in} + V_{byp})}  \times 100 \% $$
 <div align="right"> 
 Equation 7
@@ -88,7 +89,7 @@ The web app can also calculate a % change in volume if there is more than one in
 </p>
 $$\text{Figure 3. BMP hydrology with multiple inlets and bypass}$$
 
-
+The associated calculation is:
 $$ \text{percent change} = \frac{(V_{in1}+V_{in2}+V_{byp1}+V_{byp2} - V_{out})}{(V_{in1}+V_{in2}+V_{byp1}+V_{byp2})} \times 100\% $$ 
 <div align="right"> 
 Equation 8
