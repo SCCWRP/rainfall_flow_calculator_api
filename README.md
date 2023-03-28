@@ -35,6 +35,7 @@ Where P = total rainfall during an event (length, e.g., mm or in), $\delta$t = r
 Urban BMP monitoring studies typically generate runoff hydrographs where flow is measured at 1-15 min intervals. Runoff volume is determined from the integral of the hydrograph; this accomplished by using a numerical approximation to calculate the area under the hydrograph curve. In this application, area under the curve between two known flow measurements (i.e., the runoff volume for the interval) is computed using a trapezoid. The cumulative runoff volume is determined from the sum of the areas of each trapezoid.
 
 $$ V=\int_0^t Q dt \approx \sum_{n=1}^i \frac{(Q_i+Q_{i-1})}{2}(t_i-t_{i-1}) $$
+
 <div align="right"> 
 Equation 4
 </div>
@@ -59,13 +60,14 @@ Hydrologic mitigation or alteration provided by BMPs is often reported as a perc
 </p>
 
 $$\text{Figure 1. Typical, simple BMP hydrologic measurement scenario.}$$
+<div align="right"> 
+Equation 6
+</div>
 
 The associated calculation is:
 
 $$ \text{percent change} = \frac{\text{(Inflow value-Outflow value)}}{\text{(Inflow value)}} × 100% $$		
-<div align="right"> 
-Equation 6
-</div>
+
 
 Where the “value” is either $Q_p$ or V determined by the calculator. Inflow and outflow hydrographs must be provided by the user in order to calculate % change.
 
@@ -74,9 +76,11 @@ The web app can calculate a % change in volume during events where runoff bypass
 <p align="center">
   <img src="https://user-images.githubusercontent.com/55409702/228077002-427ef5b0-dc90-4b0e-9f92-644f408d2a77.png" />
 </p>
+
 $$\text{Figure 2. Typical BMP hydrologic measurement scenario with bypass.}$$
 
 The associated calculation is:
+
 $$ \text{percent change} = \frac{(V_{in}+V_{byp}-V_{out})}{(V_{in} + V_{byp})}  \times 100 \% $$
 <div align="right"> 
 Equation 7
@@ -87,9 +91,11 @@ The web app can also calculate a % change in volume if there is more than one in
 <p align="center">
   <img src="https://user-images.githubusercontent.com/55409702/228071639-43d61a26-f27a-4a7c-9a13-d6363ce6fd8b.png" />
 </p>
+
 $$\text{Figure 3. BMP hydrology with multiple inlets and bypass}$$
 
 The associated calculation is:
+
 $$ \text{percent change} = \frac{(V_{in1}+V_{in2}+V_{byp1}+V_{byp2} - V_{out})}{(V_{in1}+V_{in2}+V_{byp1}+V_{byp2})} \times 100\% $$ 
 <div align="right"> 
 Equation 8
