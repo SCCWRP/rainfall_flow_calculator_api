@@ -41,7 +41,7 @@ $$ V=\int_0^t Q dt \approx \sum_{n=1}^i \frac{(Q_i+Q_{i-1})}{2}(t_i-t_{i-1}) $$
 Equation 4
 </div>
 
-Where V = runoff volume $(length^3)$, Qi = flow rate $(length^3/time)$ recorded at time $t_i$, and t = time.
+Where V = runoff volume $(length^3)$, $Q_i$ = flow rate $(length^3/time)$ recorded at time $t_i$, and t = time.
 
 The runoff duration is the elapsed time between the beginning and end of the runoff hydrograph. The beginning and end of the hydrograph are currently user-specified timestamps. 
 
