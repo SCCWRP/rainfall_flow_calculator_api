@@ -90,7 +90,7 @@ Equation 7
 The web app can also calculate a % change in volume if there is more than one inflow to the BMP,  including bypass (Equation 8), as illustrated in Figure 2. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/55409702/228071639-43d61a26-f27a-4a7c-9a13-d6363ce6fd8b.png" />
+  <img src="https://user-images.githubusercontent.com/55409702/229169339-5514e028-4ab6-46d8-b36e-2c6da329d17f.png" />
 </p>
 
 $$\text{Figure 3. BMP hydrology with multiple inlets and bypass}$$
