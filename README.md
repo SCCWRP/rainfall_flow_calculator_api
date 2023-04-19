@@ -97,7 +97,7 @@ $$\text{Figure 3. BMP hydrology with multiple inlets and bypass}$$
 
 The associated calculation is:
 
-$$ \text{percent change} = \frac{(V_{in1}+V_{in2}+V_{byp1}+V_{byp2} - V_{out})}{(V_{in1}+V_{in2}+V_{byp1}+V_{byp2})} \times 100\% $$ 
+$$ \text{percent change} = \frac{(V_{in1}+V_{in2}+V_{byp} - V_{out})}{(V_{in1}+V_{in2}+V_{byp})} \times 100\% $$ 
 <div align="right"> 
 Equation 8
 </div>
