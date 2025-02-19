@@ -1,36 +1,3 @@
-# Rainfall and Flow Calculator API
-
-## **Purpose**
-
-This web application has been developed to enable consistent, transparent, easily applied calculations to generate statistics commonly use to describe rainfall and flow characteristics during stormwater best management practice (BMP) monitoring studies. The web app provides 2 types of analysis: rainfall and flow. For the rainfall analysis, the app provides the cumulative rainfall depth, rainfall duration, average rainfall intensity, and the maximum rainfall intensity over a 5-min or 10-min duration within a monitored event based on a user-uploaded hyetograph. For the flow analysis, hydrograph statistics determined by the web app include the total runoff volume, runoff duration, and peak (maximum) flow rate. If multiple hydrographs are provided for a single event, for example representing BMP inflow, outflow, and bypass, additional statistics are determined. 
-
-## **Method** 
-
-### Rainfall Statistics
-
-The total rainfall is the cumulative precipitation depth measured for each event. The average rainfall intensity is the ratio of the total rainfall to the total rainfall duration. The peak 5-min or 10-min rainfall intensity is given by the maximum depth of rainfall over any 5-min or 10-min interval, respectively. Precipitation statistics are calculated as: <br>
-
-
-$$ P= \sum_{j=1}^{t}   P_j \Delta t $$
-<div align="right"> 
-Equation 1
-</div>
-
-$$i_{ave}=\frac{P}{t_P} $$ 
-<div align="right"> 
-Equation 2
-</div>
-
-
-$$i_{P5}=\max \left( \frac{\sum\limits_{i}^{(i+5)} P_i}{5-min} \right)$$
-<div align="right"> 
-Equation 3
-</div>
-
-
-Where P = total rainfall during an event (length, e.g., mm or in), $\Delta t$ = rain gauge data logging interval (e.g., min), $t_P$ = total rainfall duration, determined as the elapsed time from the first rain tip to the last rain tip (time), $i_{ave}$ = average rainfall intensity over the duration of the event (length/time), $P_5$ = 5-min precipitation depth (length), $i_{P5}$ = maximum rainfall intensity over a 5-min period (length/time).
-
-
 ### Flow Statistics
 
 Urban BMP monitoring studies typically generate runoff hydrographs where flow is measured at 1-15 min intervals. Runoff volume is determined from the integral of the hydrograph; this accomplished by using a numerical approximation to calculate the area under the hydrograph curve. In this application, area under the curve between two known flow measurements (i.e., the runoff volume for the interval) is computed using a trapezoid. The cumulative runoff volume is determined from the sum of the areas of each trapezoid.
