@@ -22,4 +22,4 @@ Equation 3
 </div>
 
 
-Where P = total rainfall during an event (length, e.g., mm or in), $\Delta t$ = rain gauge data logging interval (e.g., min), $t_P$ = total rainfall duration, determined as the elapsed time from the first rain tip to the last rain tip (time), $i_{ave}$ = average rainfall intensity over the duration of the event (length/time), $P_5$ = 5-min precipitation depth (length), $i_{P5}$ = maximum rainfall intensity over a 5-min period (length/time).
+Where P = total rainfall during an event (length, e.g., mm or in), $\Delta t$ = rain gauge data logging interval (e.g., min), $t_P$ = total rainfall duration, determined as the elapsed time from the first rain tip to the last rain tip (time), $i_{ave}$ = average rainfall intensity over the duration of the event (length/time), $P_5$ = 5-min precipitation depth (length), $i_{P5}$ = maximum rainfall intensity over a 5-min moving average (length/time).
